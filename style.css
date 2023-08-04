@@ -1,9 +1,43 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: rgb(145, 0, 0);
+}
+.nav-link {
+  color: whitesmoke;
+}
+
+.btn-light {
+  --bs-btn-bg: rgb(145, 0, 0);
+  --bs-btn-color: whitesmoke;
+}
+
+.container-fluid {
+  color: black;
+}
+.btn-primary {
+  --bs-btn-bg: rgb(145, 0, 0);
+  --bs-btn-border-color: black;
+  --bs-btn-hover-bg: black;
+}
+.btn-outline-secondary {
+  --bs-btn-bg: rgb(145, 0, 0);
+  --bs-btn-border-color: black;
+  --bs-btn-hover-bg: black;
+  color: aliceblue;
+}
+
+img {
+  float: right;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
 .gradient-background {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: linear-gradient(300deg, #452c63, #4b0082, #e6e6fa);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
-
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -16,24 +50,18 @@
   }
 }
 
-.icon-square {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 0.75rem;
+.abdou {
+  font-family: "Dancing Script", cursive;
 }
 
-.profile-img {
-  height: 100px;
-  border-radius: 50%;
-  padding-top: 5px;
-  padding-bottom: 0;
-  margin-top: 5px;
-  margin-bottom: 3px;
+#programmer {
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
 }
 
-.bssg {
-  background-color: rgb(250, 250, 250);
-  height: 550px;
-  display: flex;
-  align-items: center;
+.ss {
+  --bs-btn-bg: rgb(23, 26, 196);
+  --bs-btn-border-color: none;
+  width: 300px;
+  height: 60px;
 }
